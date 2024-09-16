@@ -8,3 +8,7 @@ def test_fizzbuzz_fizz():
 
 def test_fizzbuzz_buzz():
     assert fizzbuzz(5) == [1, 2, "Fizz", 4, "Buzz"]
+
+def test_fizzbuzz_15():
+    result = fizzbuzz(15)
+    assert result[14] == "FizzBuzz"

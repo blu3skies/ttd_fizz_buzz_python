@@ -4,7 +4,10 @@ def fizzbuzz(x):
     array = []
     while i < x+1:
         print(i)
-        if i % 3 == 0:
+        if i % 15 == 0:
+            array.append("FizzBuzz")
+            i += 1	
+        elif i % 3 == 0:
             array.append("Fizz")
             #print(array)
             i += 1	
@@ -16,6 +19,6 @@ def fizzbuzz(x):
             array.append(i)
             #print(array)
             i += 1	
+        #print(array)
     return array
 
-fizzbuzz(5)

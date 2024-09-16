@@ -5,3 +5,6 @@ def test_fizzbuzz_1():
 
 def test_fizzbuzz_fizz():
     assert fizzbuzz(3) == [1, 2, "Fizz"]
+
+def test_fizzbuzz_buzz():
+    assert fizzbuzz(5) == [1, 2, "Fizz", 4, "Buzz"]
